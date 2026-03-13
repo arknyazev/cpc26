@@ -154,158 +154,158 @@
     "loss_fraction": 0.0468125
   },
   "runs/boozmn_HSX_QHS_vacuum_ns201_aScaling/gpu/nP512_res48_tol1e-06": {
-    "status": "deployed",
+    "status": "finished",
     "mode": "gpu",
     "device": "boozmn_HSX_QHS_vacuum_ns201_aScaling",
     "nParticles": 512,
     "resolution": 48,
     "tol": 1e-06,
     "tmax": 0.001,
-    "runtime": null,
-    "loss_fraction": null
+    "runtime": 0.8308961391448975,
+    "loss_fraction": 0.04296875
   },
   "runs/boozmn_HSX_QHS_vacuum_ns201_aScaling/gpu/nP512_res48_tol1e-08": {
-    "status": "deployed",
+    "status": "finished",
     "mode": "gpu",
     "device": "boozmn_HSX_QHS_vacuum_ns201_aScaling",
     "nParticles": 512,
     "resolution": 48,
     "tol": 1e-08,
     "tmax": 0.001,
-    "runtime": null,
-    "loss_fraction": null
+    "runtime": 2.21260666847229,
+    "loss_fraction": 0.033203125
   },
   "runs/boozmn_HSX_QHS_vacuum_ns201_aScaling/gpu/nP1024_res48_tol1e-06": {
-    "status": "deployed",
+    "status": "finished",
     "mode": "gpu",
     "device": "boozmn_HSX_QHS_vacuum_ns201_aScaling",
     "nParticles": 1024,
     "resolution": 48,
     "tol": 1e-06,
     "tmax": 0.001,
-    "runtime": null,
-    "loss_fraction": null
+    "runtime": 0.9146468639373779,
+    "loss_fraction": 0.0478515625
   },
   "runs/boozmn_HSX_QHS_vacuum_ns201_aScaling/gpu/nP1024_res48_tol1e-08": {
-    "status": "deployed",
+    "status": "finished",
     "mode": "gpu",
     "device": "boozmn_HSX_QHS_vacuum_ns201_aScaling",
     "nParticles": 1024,
     "resolution": 48,
     "tol": 1e-08,
     "tmax": 0.001,
-    "runtime": null,
-    "loss_fraction": null
+    "runtime": 2.2892556190490723,
+    "loss_fraction": 0.0390625
   },
   "runs/boozmn_HSX_QHS_vacuum_ns201_aScaling/gpu/nP2048_res48_tol1e-06": {
-    "status": "deployed",
+    "status": "finished",
     "mode": "gpu",
     "device": "boozmn_HSX_QHS_vacuum_ns201_aScaling",
     "nParticles": 2048,
     "resolution": 48,
     "tol": 1e-06,
     "tmax": 0.001,
-    "runtime": null,
-    "loss_fraction": null
+    "runtime": 0.8308022022247314,
+    "loss_fraction": 0.04931640625
   },
   "runs/boozmn_HSX_QHS_vacuum_ns201_aScaling/gpu/nP2048_res48_tol1e-08": {
-    "status": "deployed",
+    "status": "finished",
     "mode": "gpu",
     "device": "boozmn_HSX_QHS_vacuum_ns201_aScaling",
     "nParticles": 2048,
     "resolution": 48,
     "tol": 1e-08,
     "tmax": 0.001,
-    "runtime": null,
-    "loss_fraction": null
+    "runtime": 2.437077760696411,
+    "loss_fraction": 0.04541015625
   },
   "runs/boozmn_HSX_QHS_vacuum_ns201_aScaling/gpu/nP4096_res48_tol1e-06": {
-    "status": "deployed",
+    "status": "finished",
     "mode": "gpu",
     "device": "boozmn_HSX_QHS_vacuum_ns201_aScaling",
     "nParticles": 4096,
     "resolution": 48,
     "tol": 1e-06,
     "tmax": 0.001,
-    "runtime": null,
-    "loss_fraction": null
+    "runtime": 1.0455224514007568,
+    "loss_fraction": 0.0478515625
   },
   "runs/boozmn_HSX_QHS_vacuum_ns201_aScaling/gpu/nP4096_res48_tol1e-08": {
-    "status": "deployed",
+    "status": "finished",
     "mode": "gpu",
     "device": "boozmn_HSX_QHS_vacuum_ns201_aScaling",
     "nParticles": 4096,
     "resolution": 48,
     "tol": 1e-08,
     "tmax": 0.001,
-    "runtime": null,
-    "loss_fraction": null
+    "runtime": 2.808722734451294,
+    "loss_fraction": 0.04541015625
   },
   "runs/boozmn_HSX_QHS_vacuum_ns201_aScaling/gpu/nP8192_res48_tol1e-06": {
-    "status": "deployed",
+    "status": "finished",
     "mode": "gpu",
     "device": "boozmn_HSX_QHS_vacuum_ns201_aScaling",
     "nParticles": 8192,
     "resolution": 48,
     "tol": 1e-06,
     "tmax": 0.001,
-    "runtime": null,
-    "loss_fraction": null
+    "runtime": 1.2034447193145752,
+    "loss_fraction": 0.048095703125
   },
   "runs/boozmn_HSX_QHS_vacuum_ns201_aScaling/gpu/nP8192_res48_tol1e-08": {
-    "status": "deployed",
+    "status": "finished",
     "mode": "gpu",
     "device": "boozmn_HSX_QHS_vacuum_ns201_aScaling",
     "nParticles": 8192,
     "resolution": 48,
     "tol": 1e-08,
     "tmax": 0.001,
-    "runtime": null,
-    "loss_fraction": null
+    "runtime": 3.281463623046875,
+    "loss_fraction": 0.0472412109375
   },
   "runs/boozmn_HSX_QHS_vacuum_ns201_aScaling/gpu/nP16384_res48_tol1e-06": {
-    "status": "deployed",
+    "status": "finished",
     "mode": "gpu",
     "device": "boozmn_HSX_QHS_vacuum_ns201_aScaling",
     "nParticles": 16384,
     "resolution": 48,
     "tol": 1e-06,
     "tmax": 0.001,
-    "runtime": null,
-    "loss_fraction": null
+    "runtime": 1.9932525157928467,
+    "loss_fraction": 0.04791259765625
   },
   "runs/boozmn_HSX_QHS_vacuum_ns201_aScaling/gpu/nP16384_res48_tol1e-08": {
-    "status": "deployed",
+    "status": "finished",
     "mode": "gpu",
     "device": "boozmn_HSX_QHS_vacuum_ns201_aScaling",
     "nParticles": 16384,
     "resolution": 48,
     "tol": 1e-08,
     "tmax": 0.001,
-    "runtime": null,
-    "loss_fraction": null
+    "runtime": 6.178626537322998,
+    "loss_fraction": 0.0465087890625
   },
   "runs/boozmn_HSX_QHS_vacuum_ns201_aScaling/gpu/nP64000_res48_tol1e-06": {
-    "status": "deployed",
+    "status": "finished",
     "mode": "gpu",
     "device": "boozmn_HSX_QHS_vacuum_ns201_aScaling",
     "nParticles": 64000,
     "resolution": 48,
     "tol": 1e-06,
     "tmax": 0.001,
-    "runtime": null,
-    "loss_fraction": null
+    "runtime": 6.190466403961182,
+    "loss_fraction": 0.04759375
   },
   "runs/boozmn_HSX_QHS_vacuum_ns201_aScaling/gpu/nP64000_res48_tol1e-08": {
-    "status": "deployed",
+    "status": "finished",
     "mode": "gpu",
     "device": "boozmn_HSX_QHS_vacuum_ns201_aScaling",
     "nParticles": 64000,
     "resolution": 48,
     "tol": 1e-08,
     "tmax": 0.001,
-    "runtime": null,
-    "loss_fraction": null
+    "runtime": 20.332553148269653,
+    "loss_fraction": 0.04725
   },
   "runs/boozmn_ncsx_c09r00_fixed_aScaling/cpu/nP512_res48_tol1e-06": {
     "status": "finished",
@@ -462,158 +462,158 @@
     "loss_fraction": 0.08653125
   },
   "runs/boozmn_ncsx_c09r00_fixed_aScaling/gpu/nP512_res48_tol1e-06": {
-    "status": "deployed",
+    "status": "finished",
     "mode": "gpu",
     "device": "boozmn_ncsx_c09r00_fixed_aScaling",
     "nParticles": 512,
     "resolution": 48,
     "tol": 1e-06,
     "tmax": 0.001,
-    "runtime": null,
-    "loss_fraction": null
+    "runtime": 0.889153242111206,
+    "loss_fraction": 0.068359375
   },
   "runs/boozmn_ncsx_c09r00_fixed_aScaling/gpu/nP512_res48_tol1e-08": {
-    "status": "deployed",
+    "status": "finished",
     "mode": "gpu",
     "device": "boozmn_ncsx_c09r00_fixed_aScaling",
     "nParticles": 512,
     "resolution": 48,
     "tol": 1e-08,
     "tmax": 0.001,
-    "runtime": null,
-    "loss_fraction": null
+    "runtime": 1.793938398361206,
+    "loss_fraction": 0.06640625
   },
   "runs/boozmn_ncsx_c09r00_fixed_aScaling/gpu/nP1024_res48_tol1e-06": {
-    "status": "deployed",
+    "status": "finished",
     "mode": "gpu",
     "device": "boozmn_ncsx_c09r00_fixed_aScaling",
     "nParticles": 1024,
     "resolution": 48,
     "tol": 1e-06,
     "tmax": 0.001,
-    "runtime": null,
-    "loss_fraction": null
+    "runtime": 0.9130954742431641,
+    "loss_fraction": 0.0810546875
   },
   "runs/boozmn_ncsx_c09r00_fixed_aScaling/gpu/nP1024_res48_tol1e-08": {
-    "status": "deployed",
+    "status": "finished",
     "mode": "gpu",
     "device": "boozmn_ncsx_c09r00_fixed_aScaling",
     "nParticles": 1024,
     "resolution": 48,
     "tol": 1e-08,
     "tmax": 0.001,
-    "runtime": null,
-    "loss_fraction": null
+    "runtime": 1.7902696132659912,
+    "loss_fraction": 0.0888671875
   },
   "runs/boozmn_ncsx_c09r00_fixed_aScaling/gpu/nP2048_res48_tol1e-06": {
-    "status": "deployed",
+    "status": "finished",
     "mode": "gpu",
     "device": "boozmn_ncsx_c09r00_fixed_aScaling",
     "nParticles": 2048,
     "resolution": 48,
     "tol": 1e-06,
     "tmax": 0.001,
-    "runtime": null,
-    "loss_fraction": null
+    "runtime": 1.0134871006011963,
+    "loss_fraction": 0.076171875
   },
   "runs/boozmn_ncsx_c09r00_fixed_aScaling/gpu/nP2048_res48_tol1e-08": {
-    "status": "deployed",
+    "status": "finished",
     "mode": "gpu",
     "device": "boozmn_ncsx_c09r00_fixed_aScaling",
     "nParticles": 2048,
     "resolution": 48,
     "tol": 1e-08,
     "tmax": 0.001,
-    "runtime": null,
-    "loss_fraction": null
+    "runtime": 1.9546875953674316,
+    "loss_fraction": 0.08349609375
   },
   "runs/boozmn_ncsx_c09r00_fixed_aScaling/gpu/nP4096_res48_tol1e-06": {
-    "status": "deployed",
+    "status": "finished",
     "mode": "gpu",
     "device": "boozmn_ncsx_c09r00_fixed_aScaling",
     "nParticles": 4096,
     "resolution": 48,
     "tol": 1e-06,
     "tmax": 0.001,
-    "runtime": null,
-    "loss_fraction": null
+    "runtime": 1.0959436893463135,
+    "loss_fraction": 0.083740234375
   },
   "runs/boozmn_ncsx_c09r00_fixed_aScaling/gpu/nP4096_res48_tol1e-08": {
-    "status": "deployed",
+    "status": "finished",
     "mode": "gpu",
     "device": "boozmn_ncsx_c09r00_fixed_aScaling",
     "nParticles": 4096,
     "resolution": 48,
     "tol": 1e-08,
     "tmax": 0.001,
-    "runtime": null,
-    "loss_fraction": null
+    "runtime": 2.09238338470459,
+    "loss_fraction": 0.08251953125
   },
   "runs/boozmn_ncsx_c09r00_fixed_aScaling/gpu/nP8192_res48_tol1e-06": {
-    "status": "deployed",
+    "status": "finished",
     "mode": "gpu",
     "device": "boozmn_ncsx_c09r00_fixed_aScaling",
     "nParticles": 8192,
     "resolution": 48,
     "tol": 1e-06,
     "tmax": 0.001,
-    "runtime": null,
-    "loss_fraction": null
+    "runtime": 1.1813392639160156,
+    "loss_fraction": 0.090087890625
   },
   "runs/boozmn_ncsx_c09r00_fixed_aScaling/gpu/nP8192_res48_tol1e-08": {
-    "status": "deployed",
+    "status": "finished",
     "mode": "gpu",
     "device": "boozmn_ncsx_c09r00_fixed_aScaling",
     "nParticles": 8192,
     "resolution": 48,
     "tol": 1e-08,
     "tmax": 0.001,
-    "runtime": null,
-    "loss_fraction": null
+    "runtime": 2.6036195755004883,
+    "loss_fraction": 0.0850830078125
   },
   "runs/boozmn_ncsx_c09r00_fixed_aScaling/gpu/nP16384_res48_tol1e-06": {
-    "status": "deployed",
+    "status": "finished",
     "mode": "gpu",
     "device": "boozmn_ncsx_c09r00_fixed_aScaling",
     "nParticles": 16384,
     "resolution": 48,
     "tol": 1e-06,
     "tmax": 0.001,
-    "runtime": null,
-    "loss_fraction": null
+    "runtime": 1.9338366985321045,
+    "loss_fraction": 0.0838623046875
   },
   "runs/boozmn_ncsx_c09r00_fixed_aScaling/gpu/nP16384_res48_tol1e-08": {
-    "status": "deployed",
+    "status": "finished",
     "mode": "gpu",
     "device": "boozmn_ncsx_c09r00_fixed_aScaling",
     "nParticles": 16384,
     "resolution": 48,
     "tol": 1e-08,
     "tmax": 0.001,
-    "runtime": null,
-    "loss_fraction": null
+    "runtime": 4.650590419769287,
+    "loss_fraction": 0.08233642578125
   },
   "runs/boozmn_ncsx_c09r00_fixed_aScaling/gpu/nP64000_res48_tol1e-06": {
-    "status": "deployed",
+    "status": "finished",
     "mode": "gpu",
     "device": "boozmn_ncsx_c09r00_fixed_aScaling",
     "nParticles": 64000,
     "resolution": 48,
     "tol": 1e-06,
     "tmax": 0.001,
-    "runtime": null,
-    "loss_fraction": null
+    "runtime": 6.066807270050049,
+    "loss_fraction": 0.083890625
   },
   "runs/boozmn_ncsx_c09r00_fixed_aScaling/gpu/nP64000_res48_tol1e-08": {
-    "status": "deployed",
+    "status": "finished",
     "mode": "gpu",
     "device": "boozmn_ncsx_c09r00_fixed_aScaling",
     "nParticles": 64000,
     "resolution": 48,
     "tol": 1e-08,
     "tmax": 0.001,
-    "runtime": null,
-    "loss_fraction": null
+    "runtime": 14.504337549209595,
+    "loss_fraction": 0.083375
   },
   "runs/boozmn_new_QA_aScaling/cpu/nP512_res48_tol1e-06": {
     "status": "finished",
@@ -770,158 +770,158 @@
     "loss_fraction": 0.0104375
   },
   "runs/boozmn_new_QA_aScaling/gpu/nP512_res48_tol1e-06": {
-    "status": "deployed",
+    "status": "finished",
     "mode": "gpu",
     "device": "boozmn_new_QA_aScaling",
     "nParticles": 512,
     "resolution": 48,
     "tol": 1e-06,
     "tmax": 0.001,
-    "runtime": null,
-    "loss_fraction": null
+    "runtime": 0.39229249954223633,
+    "loss_fraction": 0.01953125
   },
   "runs/boozmn_new_QA_aScaling/gpu/nP512_res48_tol1e-08": {
-    "status": "deployed",
+    "status": "finished",
     "mode": "gpu",
     "device": "boozmn_new_QA_aScaling",
     "nParticles": 512,
     "resolution": 48,
     "tol": 1e-08,
     "tmax": 0.001,
-    "runtime": null,
-    "loss_fraction": null
+    "runtime": 0.895596981048584,
+    "loss_fraction": 0.01953125
   },
   "runs/boozmn_new_QA_aScaling/gpu/nP1024_res48_tol1e-06": {
-    "status": "deployed",
+    "status": "finished",
     "mode": "gpu",
     "device": "boozmn_new_QA_aScaling",
     "nParticles": 1024,
     "resolution": 48,
     "tol": 1e-06,
     "tmax": 0.001,
-    "runtime": null,
-    "loss_fraction": null
+    "runtime": 0.3996882438659668,
+    "loss_fraction": 0.0126953125
   },
   "runs/boozmn_new_QA_aScaling/gpu/nP1024_res48_tol1e-08": {
-    "status": "deployed",
+    "status": "finished",
     "mode": "gpu",
     "device": "boozmn_new_QA_aScaling",
     "nParticles": 1024,
     "resolution": 48,
     "tol": 1e-08,
     "tmax": 0.001,
-    "runtime": null,
-    "loss_fraction": null
+    "runtime": 0.7823770046234131,
+    "loss_fraction": 0.0126953125
   },
   "runs/boozmn_new_QA_aScaling/gpu/nP2048_res48_tol1e-06": {
-    "status": "deployed",
+    "status": "finished",
     "mode": "gpu",
     "device": "boozmn_new_QA_aScaling",
     "nParticles": 2048,
     "resolution": 48,
     "tol": 1e-06,
     "tmax": 0.001,
-    "runtime": null,
-    "loss_fraction": null
+    "runtime": 0.44530177116394043,
+    "loss_fraction": 0.01123046875
   },
   "runs/boozmn_new_QA_aScaling/gpu/nP2048_res48_tol1e-08": {
-    "status": "deployed",
+    "status": "finished",
     "mode": "gpu",
     "device": "boozmn_new_QA_aScaling",
     "nParticles": 2048,
     "resolution": 48,
     "tol": 1e-08,
     "tmax": 0.001,
-    "runtime": null,
-    "loss_fraction": null
+    "runtime": 0.8916246891021729,
+    "loss_fraction": 0.01171875
   },
   "runs/boozmn_new_QA_aScaling/gpu/nP4096_res48_tol1e-06": {
-    "status": "deployed",
+    "status": "finished",
     "mode": "gpu",
     "device": "boozmn_new_QA_aScaling",
     "nParticles": 4096,
     "resolution": 48,
     "tol": 1e-06,
     "tmax": 0.001,
-    "runtime": null,
-    "loss_fraction": null
+    "runtime": 0.5464732646942139,
+    "loss_fraction": 0.008544921875
   },
   "runs/boozmn_new_QA_aScaling/gpu/nP4096_res48_tol1e-08": {
-    "status": "deployed",
+    "status": "finished",
     "mode": "gpu",
     "device": "boozmn_new_QA_aScaling",
     "nParticles": 4096,
     "resolution": 48,
     "tol": 1e-08,
     "tmax": 0.001,
-    "runtime": null,
-    "loss_fraction": null
+    "runtime": 0.9444684982299805,
+    "loss_fraction": 0.0087890625
   },
   "runs/boozmn_new_QA_aScaling/gpu/nP8192_res48_tol1e-06": {
-    "status": "deployed",
+    "status": "finished",
     "mode": "gpu",
     "device": "boozmn_new_QA_aScaling",
     "nParticles": 8192,
     "resolution": 48,
     "tol": 1e-06,
     "tmax": 0.001,
-    "runtime": null,
-    "loss_fraction": null
+    "runtime": 0.543001651763916,
+    "loss_fraction": 0.0096435546875
   },
   "runs/boozmn_new_QA_aScaling/gpu/nP8192_res48_tol1e-08": {
-    "status": "deployed",
+    "status": "finished",
     "mode": "gpu",
     "device": "boozmn_new_QA_aScaling",
     "nParticles": 8192,
     "resolution": 48,
     "tol": 1e-08,
     "tmax": 0.001,
-    "runtime": null,
-    "loss_fraction": null
+    "runtime": 1.091395378112793,
+    "loss_fraction": 0.009765625
   },
   "runs/boozmn_new_QA_aScaling/gpu/nP16384_res48_tol1e-06": {
-    "status": "deployed",
+    "status": "finished",
     "mode": "gpu",
     "device": "boozmn_new_QA_aScaling",
     "nParticles": 16384,
     "resolution": 48,
     "tol": 1e-06,
     "tmax": 0.001,
-    "runtime": null,
-    "loss_fraction": null
+    "runtime": 0.670647144317627,
+    "loss_fraction": 0.0108642578125
   },
   "runs/boozmn_new_QA_aScaling/gpu/nP16384_res48_tol1e-08": {
-    "status": "deployed",
+    "status": "finished",
     "mode": "gpu",
     "device": "boozmn_new_QA_aScaling",
     "nParticles": 16384,
     "resolution": 48,
     "tol": 1e-08,
     "tmax": 0.001,
-    "runtime": null,
-    "loss_fraction": null
+    "runtime": 1.682440996170044,
+    "loss_fraction": 0.01092529296875
   },
   "runs/boozmn_new_QA_aScaling/gpu/nP64000_res48_tol1e-06": {
-    "status": "deployed",
+    "status": "finished",
     "mode": "gpu",
     "device": "boozmn_new_QA_aScaling",
     "nParticles": 64000,
     "resolution": 48,
     "tol": 1e-06,
     "tmax": 0.001,
-    "runtime": null,
-    "loss_fraction": null
+    "runtime": 1.8517532348632812,
+    "loss_fraction": 0.010421875
   },
   "runs/boozmn_new_QA_aScaling/gpu/nP64000_res48_tol1e-08": {
-    "status": "deployed",
+    "status": "finished",
     "mode": "gpu",
     "device": "boozmn_new_QA_aScaling",
     "nParticles": 64000,
     "resolution": 48,
     "tol": 1e-08,
     "tmax": 0.001,
-    "runtime": null,
-    "loss_fraction": null
+    "runtime": 5.2239768505096436,
+    "loss_fraction": 0.0104375
   },
   "runs/boozmn_new_QH_aScaling/cpu/nP512_res48_tol1e-06": {
     "status": "finished",
@@ -1078,157 +1078,157 @@
     "loss_fraction": 0.000109375
   },
   "runs/boozmn_new_QH_aScaling/gpu/nP512_res48_tol1e-06": {
-    "status": "deployed",
+    "status": "finished",
     "mode": "gpu",
     "device": "boozmn_new_QH_aScaling",
     "nParticles": 512,
     "resolution": 48,
     "tol": 1e-06,
     "tmax": 0.001,
-    "runtime": null,
-    "loss_fraction": null
+    "runtime": 0.7019250392913818,
+    "loss_fraction": 0.0
   },
   "runs/boozmn_new_QH_aScaling/gpu/nP512_res48_tol1e-08": {
-    "status": "deployed",
+    "status": "finished",
     "mode": "gpu",
     "device": "boozmn_new_QH_aScaling",
     "nParticles": 512,
     "resolution": 48,
     "tol": 1e-08,
     "tmax": 0.001,
-    "runtime": null,
-    "loss_fraction": null
+    "runtime": 1.093172311782837,
+    "loss_fraction": 0.0
   },
   "runs/boozmn_new_QH_aScaling/gpu/nP1024_res48_tol1e-06": {
-    "status": "deployed",
+    "status": "finished",
     "mode": "gpu",
     "device": "boozmn_new_QH_aScaling",
     "nParticles": 1024,
     "resolution": 48,
     "tol": 1e-06,
     "tmax": 0.001,
-    "runtime": null,
-    "loss_fraction": null
+    "runtime": 0.617457389831543,
+    "loss_fraction": 0.0
   },
   "runs/boozmn_new_QH_aScaling/gpu/nP1024_res48_tol1e-08": {
-    "status": "deployed",
+    "status": "finished",
     "mode": "gpu",
     "device": "boozmn_new_QH_aScaling",
     "nParticles": 1024,
     "resolution": 48,
     "tol": 1e-08,
     "tmax": 0.001,
-    "runtime": null,
-    "loss_fraction": null
+    "runtime": 1.3637142181396484,
+    "loss_fraction": 0.0
   },
   "runs/boozmn_new_QH_aScaling/gpu/nP2048_res48_tol1e-06": {
-    "status": "deployed",
+    "status": "finished",
     "mode": "gpu",
     "device": "boozmn_new_QH_aScaling",
     "nParticles": 2048,
     "resolution": 48,
     "tol": 1e-06,
     "tmax": 0.001,
-    "runtime": null,
-    "loss_fraction": null
+    "runtime": 0.631922721862793,
+    "loss_fraction": 0.0
   },
   "runs/boozmn_new_QH_aScaling/gpu/nP2048_res48_tol1e-08": {
-    "status": "deployed",
+    "status": "finished",
     "mode": "gpu",
     "device": "boozmn_new_QH_aScaling",
     "nParticles": 2048,
     "resolution": 48,
     "tol": 1e-08,
     "tmax": 0.001,
-    "runtime": null,
-    "loss_fraction": null
+    "runtime": 1.2724628448486328,
+    "loss_fraction": 0.0
   },
   "runs/boozmn_new_QH_aScaling/gpu/nP4096_res48_tol1e-06": {
-    "status": "deployed",
+    "status": "finished",
     "mode": "gpu",
     "device": "boozmn_new_QH_aScaling",
     "nParticles": 4096,
     "resolution": 48,
     "tol": 1e-06,
     "tmax": 0.001,
-    "runtime": null,
-    "loss_fraction": null
+    "runtime": 0.6376469135284424,
+    "loss_fraction": 0.0
   },
   "runs/boozmn_new_QH_aScaling/gpu/nP4096_res48_tol1e-08": {
-    "status": "deployed",
+    "status": "finished",
     "mode": "gpu",
     "device": "boozmn_new_QH_aScaling",
     "nParticles": 4096,
     "resolution": 48,
     "tol": 1e-08,
     "tmax": 0.001,
-    "runtime": null,
-    "loss_fraction": null
+    "runtime": 1.4332497119903564,
+    "loss_fraction": 0.0
   },
   "runs/boozmn_new_QH_aScaling/gpu/nP8192_res48_tol1e-06": {
-    "status": "deployed",
+    "status": "finished",
     "mode": "gpu",
     "device": "boozmn_new_QH_aScaling",
     "nParticles": 8192,
     "resolution": 48,
     "tol": 1e-06,
     "tmax": 0.001,
-    "runtime": null,
-    "loss_fraction": null
+    "runtime": 0.7762851715087891,
+    "loss_fraction": 0.0
   },
   "runs/boozmn_new_QH_aScaling/gpu/nP8192_res48_tol1e-08": {
-    "status": "deployed",
+    "status": "finished",
     "mode": "gpu",
     "device": "boozmn_new_QH_aScaling",
     "nParticles": 8192,
     "resolution": 48,
     "tol": 1e-08,
     "tmax": 0.001,
-    "runtime": null,
-    "loss_fraction": null
+    "runtime": 1.6080667972564697,
+    "loss_fraction": 0.0
   },
   "runs/boozmn_new_QH_aScaling/gpu/nP16384_res48_tol1e-06": {
-    "status": "deployed",
+    "status": "finished",
     "mode": "gpu",
     "device": "boozmn_new_QH_aScaling",
     "nParticles": 16384,
     "resolution": 48,
     "tol": 1e-06,
     "tmax": 0.001,
-    "runtime": null,
-    "loss_fraction": null
+    "runtime": 1.0264959335327148,
+    "loss_fraction": 0.0001220703125
   },
   "runs/boozmn_new_QH_aScaling/gpu/nP16384_res48_tol1e-08": {
-    "status": "deployed",
+    "status": "finished",
     "mode": "gpu",
     "device": "boozmn_new_QH_aScaling",
     "nParticles": 16384,
     "resolution": 48,
     "tol": 1e-08,
     "tmax": 0.001,
-    "runtime": null,
-    "loss_fraction": null
+    "runtime": 2.3489723205566406,
+    "loss_fraction": 0.0001220703125
   },
   "runs/boozmn_new_QH_aScaling/gpu/nP64000_res48_tol1e-06": {
-    "status": "deployed",
+    "status": "finished",
     "mode": "gpu",
     "device": "boozmn_new_QH_aScaling",
     "nParticles": 64000,
     "resolution": 48,
     "tol": 1e-06,
     "tmax": 0.001,
-    "runtime": null,
-    "loss_fraction": null
+    "runtime": 2.7525665760040283,
+    "loss_fraction": 0.000109375
   },
   "runs/boozmn_new_QH_aScaling/gpu/nP64000_res48_tol1e-08": {
-    "status": "deployed",
+    "status": "finished",
     "mode": "gpu",
     "device": "boozmn_new_QH_aScaling",
     "nParticles": 64000,
     "resolution": 48,
     "tol": 1e-08,
     "tmax": 0.001,
-    "runtime": null,
-    "loss_fraction": null
+    "runtime": 6.097522974014282,
+    "loss_fraction": 0.000109375
   }
 }
