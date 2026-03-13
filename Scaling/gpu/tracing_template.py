@@ -25,13 +25,13 @@ inp = Inputs.from_npz(sys.argv[1])
 
 # Load initial conditions (top nParticles rows)
 ic_data = np.loadtxt(inp.ic_file, skiprows=1, max_rows=inp.nParticles)
-stz_inits = ic_data[:, :3]
-vpar_inits = ic_data[:, 3]
+stz_inits = np.ascontiguousarray(ic_data[:, :3])
+vpar_inits = np.ascontiguousarray(ic_data[:, 3])
 
 print(f"Loaded {inp.nParticles} initial conditions from {inp.ic_file}")
 
 # Build GPU interpolant
-bri = BoozerRadialInterpolant(inp.boozmn_filename, 3)
+bri = BoozerRadialInterpolant(inp.boozmn_filename, 3, no_K=True)
 nfp = bri.nfp
 field = InterpolatedBoozerField(
     bri,
@@ -40,7 +40,14 @@ field = InterpolatedBoozerField(
     ntheta_interp=inp.resolution,
     nzeta_interp=inp.resolution,
 )
-srange, trange, zrange, quad_info, maxJ = boozer_interpolant(field, nfp, inp.resolution, inp.resolution, inp.resolution)
+srange, trange, zrange, quad_info, maxJ = boozer_interpolant(
+    field,
+    nfp, 
+    inp.resolution, 
+    inp.resolution, 
+    inp.resolution, 
+    vacuum=True
+)
 print("Created GPU interpolant")
 
 # Trace on GPU
@@ -59,6 +66,7 @@ last_time = firm3dpp.boozer_gpu_tracing(
     tol=inp.tol,
     psi0=field.psi0,
     nparticles=inp.nParticles,
+    vacuum=True,
 )
 time2 = time.time()
 runtime = time2 - time1
