@@ -41,7 +41,7 @@ RESOLUTION_VALUES = [16, 32, 64]
 TOL_VALUES        = [1e-3, 1e-4, 1e-5, 1e-6, 1e-7, 1e-8]
 TMAX              = 1e-3
 
-MODES = ["cpu", "gpu"]
+MODES = ["cpu"]#, "gpu"]
 
 # ---------------------------------------------------------------------------
 # Slurm template builders
