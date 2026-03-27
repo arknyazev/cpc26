@@ -36,9 +36,9 @@ BOOZMN_FILES = [
 ]
 
 # keep >= 512 (CPU comm_size):
-NPARTICLES_VALUES = [512, 1024, 2048, 4096, 8192, 16384, 64000]  
-RESOLUTION_VALUES = [48]
-TOL_VALUES        = [1e-6, 1e-8]
+NPARTICLES_VALUES = [512, 1024, 2048, 4096, 8192, 16384, 32768, 65536]  
+RESOLUTION_VALUES = [16, 32, 64]
+TOL_VALUES        = [1e-3, 1e-4, 1e-5, 1e-6, 1e-7, 1e-8]
 TMAX              = 1e-3
 
 MODES = ["cpu", "gpu"]

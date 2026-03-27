@@ -39,7 +39,12 @@ proc0_print(f"Loaded {inp.nParticles} initial conditions from {inp.ic_file}")
 setup_logging(f"stdout_{inp.nParticles}_{inp.resolution}_{comm_size}.txt")
 
 ## Setup radial interpolation
-bri = BoozerRadialInterpolant(inp.boozmn_filename, order=3, no_K=True, comm=comm_world)
+bri = BoozerRadialInterpolant(
+    inp.boozmn_filename,
+    order=3,
+    enforce_vacuum=True,
+    comm=comm_world
+)
 
 ## Setup 3d interpolation
 field = InterpolatedBoozerField(
