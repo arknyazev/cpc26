@@ -34,17 +34,15 @@ BOOZMN_FILE = str(SCALING_SAW_DIR / "device" / "boozmn_beta2.5_QH.nc")
 IC_FILE     = str(SCALING_SAW_DIR / "ICs" / "boozmn_beta2.5_QH" / "initial_conditions.txt")
 
 SAW_FILES = [
-    SCALING_SAW_DIR / "ae3d_saw_scaled" / "QH_10harmonics_scale0_000464159.npy",
-    SCALING_SAW_DIR / "ae3d_saw_scaled" / "QH_10harmonics_scale0_001.npy",
     SCALING_SAW_DIR / "ae3d_saw_scaled" / "QH_10harmonics_scale0_00215443.npy",
 ]
 
-NPARTICLES_VALUES = [512, 1024, 2048, 4096, 8192, 16384, 64000]
-RESOLUTION_VALUES = [17, 24, 48]
-TOL_VALUES        = [1e-6, 1e-8]
+NPARTICLES_VALUES = [512, 1024, 2048, 4096, 8192, 16384, 32768, 65536]
+RESOLUTION_VALUES = [16, 32, 64]
+TOL_VALUES        = [1e-3, 1e-4, 1e-5, 1e-6, 1e-7, 1e-8]
 TMAX              = 1e-3
 
-MODES = ["cpu", "gpu"]
+MODES = ["cpu"] #, "gpu"]
 
 # ---------------------------------------------------------------------------
 # Slurm script builders (sourced inside driver — #SBATCH lines are comments)
