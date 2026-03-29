@@ -34,7 +34,7 @@ BOOZMN_FILE = str(SCALING_SAW_DIR / "device" / "boozmn_beta2.5_QH.nc")
 IC_FILE     = str(SCALING_SAW_DIR / "ICs" / "boozmn_beta2.5_QH" / "initial_conditions.txt")
 
 SAW_FILES = [
-    SCALING_SAW_DIR / "ae3d_saw_scaled" / "QH_10harmonics_scale0_00215443.npy",
+    SCALING_SAW_DIR / "ae3d_saw_scaled" / "QH_10harmonics_scale0_01.npy",
 ]
 
 NPARTICLES_VALUES = [512, 1024, 2048, 4096, 8192, 16384, 32768, 65536]
