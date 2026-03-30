@@ -5,7 +5,6 @@ from pathlib import Path
 import numpy as np
 
 from firm3d.field.boozermagneticfield import (
-    BoozerRadialInterpolant,
     InterpolatedBoozerField,
     ShearAlfvenWavesSuperposition,
 )
@@ -40,21 +39,15 @@ proc0_print(f"Loaded {inp.nParticles} initial conditions from {inp.ic_file}")
 # Setup logging to redirect output to file
 setup_logging(f"stdout_{inp.nParticles}_{inp.resolution}_{comm_size}.txt")
 
-## Setup radial interpolation
-bri = BoozerRadialInterpolant(
-    inp.boozmn_filename, 
-    order=3, 
-    enforce_vacuum=True, 
-    comm=comm_world
-)
-
-## Setup 3d interpolation
-field = InterpolatedBoozerField(
-    bri,
+## Setup background field
+field = InterpolatedBoozerField.from_booz_xform(
+    inp.boozmn_filename,
     degree=3,
-    ns_interp=inp.resolution,
-    ntheta_interp=inp.resolution,
-    nzeta_interp=inp.resolution,
+    enforce_vacuum=True,
+    ns=inp.resolution,
+    ntheta=inp.resolution,
+    nzeta=inp.resolution,
+    comm=comm_world,
 )
 
 ## Setup SAW perturbation
