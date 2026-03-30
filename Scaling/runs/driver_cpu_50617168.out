@@ -1,0 +1,7 @@
+Running: /global/homes/m/mczek/catapult/cpc26/Scaling/runs/boozmn_ncsx_c09r00_fixed_aScaling/cpu/nP4096_res64_tol1e-05/run.sh
+Loaded 4096 initial conditions from /global/u1/m/mczek/catapult/cpc26/Scaling/ICs/wout_ncsx_c09r00_fixed_aScaling/initial_conditions.txt
+Elapsed time for tracing =  1.8187308311462402
+Elapsed time for tracing =  1.8187308311462402
+Saved results to inputs_results.npz
+Saved results to inputs_results.npz
+Submitted batch job 50617200

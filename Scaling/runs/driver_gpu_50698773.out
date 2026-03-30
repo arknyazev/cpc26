@@ -1,0 +1,5 @@
+Running: /global/homes/m/mczek/catapult/cpc26/Scaling/runs/boozmn_new_QH_aScaling/gpu/nP65536_res16_tol1e-06/run.sh
+Loaded 65536 initial conditions from /global/u1/m/mczek/catapult/cpc26/Scaling/ICs/wout_new_QH_aScaling/initial_conditions.txt
+Elapsed time for tracing = 1.7280681133270264
+Saved results to inputs_results.npz
+Submitted batch job 50698910

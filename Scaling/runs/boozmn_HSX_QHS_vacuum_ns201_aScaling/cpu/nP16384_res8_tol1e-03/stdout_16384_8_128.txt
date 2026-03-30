@@ -1,0 +1,2 @@
+Elapsed time for tracing =  1.2968006134033203
+Saved results to inputs_results.npz

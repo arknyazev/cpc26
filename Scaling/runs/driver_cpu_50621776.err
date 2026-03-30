@@ -1,0 +1,7 @@
+/var/spool/slurmd/job50621776/slurm_script: line 20: /usr/bin/head: Argument list too long
+/var/spool/slurmd/job50621776/slurm_script: line 21: /usr/bin/tail: Argument list too long
+/var/spool/slurmd/job50621776/slurm_script: line 24: /usr/bin/dirname: Argument list too long
+/opt/cray/pe/lmod/lmod/init/bash: line 100: /opt/cray/pe/lmod/lmod/libexec/lmod: Argument list too long
+/global/common/software/nersc/pe/conda/26.1.0/Miniforge3-25.11.0-1/etc/profile.d/conda.sh: line 15: /global/common/software/nersc/pe/conda/26.1.0/Miniforge3-25.11.0-1/bin/conda: Argument list too long
+run.sh: line 16: /usr/bin/srun: Argument list too long
+/var/spool/slurmd/job50621776/slurm_script: line 30: /usr/bin/sbatch: Argument list too long

@@ -1,0 +1,5 @@
+Running: /global/homes/m/mczek/catapult/cpc26/Scaling/runs/boozmn_ncsx_c09r00_fixed_aScaling/gpu/nP4096_res32_tol1e-06/run.sh
+Loaded 4096 initial conditions from /global/u1/m/mczek/catapult/cpc26/Scaling/ICs/wout_ncsx_c09r00_fixed_aScaling/initial_conditions.txt
+Elapsed time for tracing = 0.9928314685821533
+Saved results to inputs_results.npz
+Submitted batch job 50636256

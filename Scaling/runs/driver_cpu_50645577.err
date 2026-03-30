@@ -1,0 +1,2 @@
+/global/u1/m/mczek/catapult/cpc26/Scaling/runs/boozmn_new_QH_aScaling/cpu/nP4096_res32_tol1e-04/tracing_template.py:92: UserWarning: Data has no positive values, and therefore cannot be log-scaled.
+  plt.xlim([1e-5, inp.tmax])
