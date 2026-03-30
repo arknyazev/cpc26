@@ -64,7 +64,7 @@ def cpu_slurm(job_name: str, script_name: str, inputs_name: str) -> str:
 #SBATCH --mail-type=begin,end,fail
 
 module load python cray-hdf5/1.14.3.1 cray-netcdf/4.9.0.13
-conda activate firm3d
+conda activate firm3d-spline
 srun -n 512 -c 1 python -u {script_name} {inputs_name}
 """
 
